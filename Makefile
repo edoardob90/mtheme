@@ -2,7 +2,7 @@ MAKEFLAGS  := -j 1
 INS         = source/beamerthememetropolis.ins
 PACKAGE_SRC = $(wildcard source/*.dtx)
 PACKAGE_STY = $(notdir $(PACKAGE_SRC:%.dtx=%.sty))
-DEMO_SRC    = demo/demo.tex demo/demo.bib
+DEMO_SRC    = demo/demo.tex #demo/demo.bib
 DEMO_PDF    = demo/demo.pdf
 DOC_SRC     = doc/metropolistheme.dtx
 DOC_PDF     = doc/metropolistheme.pdf
